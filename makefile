@@ -1,0 +1,2 @@
+fdtd: manager.cpp vtk.cpp grid.cpp source.cpp loader.cpp pml.cpp outline.cpp source3d.cpp pml3d.cpp outline3d.cpp grid3d.cpp vtk.h source.h pml.h outline.h loader.h grid.h source3d.h pml3d.h outline3d.h grid3d.h
+	g++ -o fdtd vtk.cpp grid.cpp source.cpp loader.cpp pml.cpp outline.cpp source3d.cpp pml3d.cpp outline3d.cpp grid3d.cpp vtk.h source.h pml.h outline.h loader.h grid.h source3d.h pml3d.h outline3d.h grid3d.h manager.cpp
